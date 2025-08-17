@@ -12,22 +12,22 @@ let allowAnimations = false;
 // Heart click event
 heart.addEventListener('click', () => {
     // Burst confetti
-    // confetti({
-    //     particleCount: 200,
-    //     spread: 500,
-    //     origin: { y: 0.45 },
-    //     scalar: 2,
-    //     gravity: 0.8
-    // });
+    confetti({
+        particleCount: 200,
+        spread: 500,
+        origin: { y: 0.45 },
+        scalar: 2,
+        gravity: 0.8
+    });
 
-    // confetti({
-    //     particleCount: 100,
-    //     spread: 100,
-    //     origin: { y: 0.45 },
-    //     colors: ['#ff0', '#f0f', '#0ff', '#ff6347', '#32cd32'],
-    //     scalar: 2,
-    //     gravity: 0.8
-    // });
+    confetti({
+        particleCount: 100,
+        spread: 100,
+        origin: { y: 0.45 },
+        colors: ['#ff0', '#f0f', '#0ff', '#ff6347', '#32cd32'],
+        scalar: 2,
+        gravity: 0.8
+    });
 
     // Hide heart and text
     setTimeout(() => {

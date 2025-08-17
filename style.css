@@ -282,3 +282,55 @@ body.allow-scroll {
         font-size: 16px;
     }
 }
+
+/* iPhone 12 (390x844 CSS pixels) */
+@media only screen and (max-width: 400px) and (max-height: 850px) {
+    .para-box {
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .letter {
+        font-size: 16px;
+    }
+
+    .letter-heading {
+        font-size: 20px;
+    }
+
+    .message {
+        font-size: 50px;
+    }
+
+    .heart {
+        font-size: 80px;
+    }
+
+    .main-box p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .scroll-instruct {
+        font-size: 24px;
+    }
+
+    .feelings {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .letter img {
+        width: 80px;
+        height: auto;
+    }
+
+    .second-letter {
+        height: auto !important;
+    }
+}
